@@ -50,39 +50,22 @@ interface Hint {
 }
 
 interface finishedGame {
-    "Date": "2023/08/10",
-    "Movie": "A Man Called Otto",
-    "NumCorrect": 0,
-    "NumIncorrect": 0,
-    "Tagline": "Fall in love with the grumpiest man in America.",
-    "Overview": "When a lively young family moves in next door, grumpy widower Otto Anderson meets his match in a quick-witted, pregnant woman named Marisol, leading to an unlikely friendship that turns his world upside down.",
-    "Genres": [
-        "Comedy",
-        "Drama"
-    ],
-    "Actors": [
-        "Tom Hanks",
-        "Mariana Treviño",
-        "Rachel Keller",
-        "Manuel Garcia-Rulfo",
-        "Cameron Britton",
-        "Kailey Hyman",
-        "Mike Birbiglia",
-        "Elle Chapman",
-        "Joe Fishel",
-        "Truman Hanks"
-    ],
-    "Revenue": 108961677,
-    "Poster": "/130H1gap9lFfiTF9iDrqNIkFvC9.jpg",
-    "ReleaseYear": "2022",
-    "Director": "Marc Forster",
-    "Producer": "Playtone",
-    "IMDB": "tt7405458",
-    "Collection": ""
+    date: string,
+    movie: string,
+    numCorrect: int,
+    numIncorrect": int,
+    tagline: string,
+    overview: string,
+    genres: string[],
+    actors: string[],
+    revenue: int,
+    poster: string,
+    releaseYear: string,
+    director: string,
+    producer: string,
+    imdb: string,
+    collection: string
 }
-
-
-Supporting structures:
 
 interface genre {
     name: string
